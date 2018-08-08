@@ -15,7 +15,7 @@
 	<link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet" />
 
 	<!-- ================== END BASE CSS STYLE ================== -->
-	<link rel="shortcut icon" href="{{ asset('assets/img/favicon/favicon.ico') }}" />
+	<link rel="shortcut icon" href="{{ asset('assets/favicon.ico') }}" />
 	<!-- ================== BEGIN BASE JS ================== -->
 	<script src="{{ asset('assets/plugins/pace/pace.min.js') }}"></script>
 	<!-- ================== END BASE JS ================== -->
