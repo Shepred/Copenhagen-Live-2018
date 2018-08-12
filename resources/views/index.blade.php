@@ -19,7 +19,7 @@
             <!-- end container -->
         </div>
         <!-- end #home -->
-        
+
         <!-- begin #about -->
         <div id="about" class="content" data-scrollview="true">
             <!-- begin container -->
@@ -36,18 +36,18 @@
                         <div class="about">
                             <h3>Here's what to expect for <b>2018</b>..</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Vestibulum posuere augue eget ante porttitor fringilla. 
-                                Aliquam laoreet, sem eu dapibus congue, velit justo ullamcorper urna, 
-                                non rutrum dolor risus non sapien. Vivamus vel tincidunt quam. 
-                                Donec ultrices nisl ipsum, sed elementum ex dictum nec. 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Vestibulum posuere augue eget ante porttitor fringilla.
+                                Aliquam laoreet, sem eu dapibus congue, velit justo ullamcorper urna,
+                                non rutrum dolor risus non sapien. Vivamus vel tincidunt quam.
+                                Donec ultrices nisl ipsum, sed elementum ex dictum nec.
                             </p>
                             <p>
-                                In non libero at orci rutrum viverra at ac felis. 
-                                Curabitur a efficitur libero, eu finibus quam. 
-                                Pellentesque pretium ante vitae est molestie, ut faucibus tortor commodo. 
-                                Donec gravida, eros ac pretium cursus, est erat dapibus quam, 
-                                sit amet dapibus nisl magna sit amet orci. 
+                                In non libero at orci rutrum viverra at ac felis.
+                                Curabitur a efficitur libero, eu finibus quam.
+                                Pellentesque pretium ante vitae est molestie, ut faucibus tortor commodo.
+                                Donec gravida, eros ac pretium cursus, est erat dapibus quam,
+                                sit amet dapibus nisl magna sit amet orci.
                             </p>
                         </div>
                         <!-- end about -->
@@ -64,7 +64,7 @@
             <!-- end container -->
         </div>
         <!-- end #about -->
-    
+
         <!-- begin #milestone -->
 
         <div class="content bg-black-darker has-bg" data-scrollview="true">
@@ -144,14 +144,14 @@
                     	</div>
                     	<div class="col-md-3 col-sm-3">
                     		<a href="http://www.vidandesign.com/" target="_blank"><img src="{{ asset('/assets/img/sponsors/vidandesign.png') }}" alt="Vidan Design" class="img-responsive"/></a>
-                    	</div>                    	
+                    	</div>
                     </div>
                 <!-- begin row -->
                 <div class="row">
                     <!-- begin col-4 -->
                     <div class="col-md-4 col-sm-4">
                         <div class="service">
-                         
+
                             <div class="info">
                                 <h4 class="title">Morning Rush</h4>
                                 <p class="desc">No sleep for the wicked! Arrive into Copenhagen between 06:00 & 08:00 Z.</p>
@@ -162,7 +162,7 @@
                     <!-- begin col-4 -->
                     <div class="col-md-4 col-sm-4">
                         <div class="service">
-                            
+
                             <div class="info">
                                 <h4 class="title">Domestic Madness</h4>
                                 <p class="desc">Short on time? Complete a domestic two sector flight, originating in Copenhagen to any commercial airfield in Denmark & return to participate.</p>
@@ -173,7 +173,7 @@
                     <!-- begin col-4 -->
                     <div class="col-md-4 col-sm-4">
                         <div class="service">
-                            
+
                             <div class="info">
                                 <h4 class="title">Afternoon Turnaround</h4>
                                 <p class="desc">Fly to Copenhagen & work in close co-operation with your ground crew to get your aircraft ready for departure - you've only got one hour!</p>
@@ -188,7 +188,7 @@
                     <!-- begin col-4 -->
                     <div class="col-md-4 col-sm-4">
                         <div class="service">
-                            
+
                             <div class="info">
                                 <h4 class="title">6 Sector Challenge</h4>
                                 <p class="desc">Got the whole day set aside? Complete at least 6 sectors during the day. Every sector has to either arrive or depart at Copenhagen.</p>
@@ -199,7 +199,7 @@
                     <!-- begin col-4 -->
                     <div class="col-md-4 col-sm-4">
                         <div class="service">
-                            
+
                             <div class="info">
                                 <h4 class="title">Back Before Curfew</h4>
                                 <p class="desc">A long day of flying is slowly coming to an end, and it's time to head home once more. Touchdown in Copenhagen between 20:00 & 22:00 Z.</p>
@@ -210,7 +210,7 @@
                     <!-- begin col-4 -->
                     <div class="col-md-4 col-sm-4">
                         <div class="service">
-                            
+
                             <div class="info">
                                 <h4 class="title">Virtual Airline Showdown</h4>
                                 <p class="desc">Integer consectetur, massa id mattis tincidunt, sapien erat malesuada turpis, nec vehicula lacus felis nec libero. Fusce non lorem nisl.</p>
@@ -223,7 +223,7 @@
             </div>
             <!-- end container -->
         </div>
-        <!-- end #about -->        
+        <!-- end #about -->
 
         <!-- begin #quote -->
         <div class="content bg-black-darker has-bg" data-scrollview="true">
@@ -248,26 +248,41 @@
             <!-- end container -->
         </div>
         <!-- end #quote -->
-        
-        
-        
-        
-        
-        <!-- begin #work -->
+
+
+
+
+
+        <!-- begin #briefing -->
         <div id="briefing" class="content" data-scrollview="true">
             <!-- begin container -->
             <div class="container" data-animation="true" data-animation-type="fadeInDown">
                 <h2 class="content-title">Pilot Briefing</h2>
                 <p class="content-desc">
-                    Yo ass is being briefed<br />
-                    ... yo!
+                    Not quite sure how it all works in Denmark? We've got you covered!
                 </p>
+                <div class="row">
+                    <div class="col-md-2">&nbsp;</div>
+                    <div class="col-md-4">
+                        <h4 class="title">Copenhagen, Kastrup - EKCH</h4>
+                        <p>
+                            We hope that you'll want to be best prepared, when you visit us at Copenhagen. We've got a full, comprehensive briefing prepared for you! You can find it right <a href="http://vatsim-scandinavia.org/wp-content/uploads/2013/12/Briefing-Copenhagen-Kastrup-V2.pdf">here</a>.<br>It contains some information about routes in and out of Copenhagen as well, so if you're looking for inspiration, this is your guide!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="title">Regional airports</h4>
+                        <p>
+                            If you want information about our local airports, you can find so for Billund, Aalborg and Aarhus right <a href="http://vatsim-scandinavia.org/pilots/airports/denmark/">here</a>.
+                        </p>
+                    </div>
+                    <div class="col-md-2">&nbsp;</div>
+                </div>
 
             </div>
             <!-- end container -->
         </div>
-        <!-- end #work -->
-        
-        
-       
+        <!-- end #briefing -->
+
+
+
     @endsection
