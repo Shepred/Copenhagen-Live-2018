@@ -10,4 +10,7 @@ class HomeController extends Controller
     function index() {
     	return view('index');
     }
+    function competitions() {
+    	return view('competitions');
+    }
 }

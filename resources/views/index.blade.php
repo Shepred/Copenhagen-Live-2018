@@ -14,7 +14,7 @@
                     Saturday the 8th of September, 2018<br />
                     16 hours of controlling from 06:00 Z to 22:00 Z
                 </h4>
-                <a href="#" class="btn btn-theme">Pilot Briefing</a> <a href="#" class="btn btn-outline">Event Competitions</a><br />
+                <a href="#briefing" class="btn btn-theme">Pilot Briefing</a> <a href="#competitions" class="btn btn-outline">Event Competitions</a><br />
                             </div>
             <!-- end container -->
         </div>
@@ -78,7 +78,7 @@
             <div class="container">
                 <!-- begin row -->
                 <div class="row">
-                	<h2 class="content-title">In 2017 we had..</h2>
+                	<h2 class="content-header text-center">In 2017 we had..</h2>
 
                     <!-- begin col-3 -->
                     <div class="col-md-3 col-sm-3 milestone-col">
@@ -128,18 +128,33 @@
             <div class="container">
                 <h2 class="content-title">Competitions</h2>
                 <p class="content-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur eros dolor,<br />
-                    sed bibendum turpis luctus eget
+                    Just like last year, we've teamed up with numerous well known flight simulator developers, to give away some wonderful prizes.
+                    <br>
+                    Below you'll find a brief overview. To learn more or to take part in the competitions, <a href="{{ url('/competitions') }}">head on over to the dedicated site</a>.
                 </p>
+                    <div class="row content-header">
+                    	<div class="col-md-3 col-sm-3">
+                    		<a href="https://www.aerosoft.com/en/" target="_blank"><img src="{{ asset('/assets/img/sponsors/aerosoft.png') }}" alt="Aerosoft" class="img-responsive"/></a>
+                    	</div>
+                    	<div class="col-md-3 col-sm-3">
+                    		<a href="https://www.fs2crew.com/" target="_blank"><img src="{{ asset('/assets/img/sponsors/fs2crew.png') }}" alt="FS2Crew" class="img-responsive"/></a>
+                    	</div>
+                    	<div class="col-md-3 col-sm-3">
+                    		<a href="https://orbxdirect.com/" target="_blank"><img src="{{ asset('/assets/img/sponsors/orbx.png') }}" alt="Orbx" class="img-responsive"/></a>
+                    	</div>
+                    	<div class="col-md-3 col-sm-3">
+                    		<a href="http://www.vidandesign.com/" target="_blank"><img src="{{ asset('/assets/img/sponsors/vidandesign.png') }}" alt="Vidan Design" class="img-responsive"/></a>
+                    	</div>                    	
+                    </div>
                 <!-- begin row -->
                 <div class="row">
                     <!-- begin col-4 -->
                     <div class="col-md-4 col-sm-4">
                         <div class="service">
-                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-cog"></i></div>
+                         
                             <div class="info">
-                                <h4 class="title">Competition Title</h4>
-                                <p class="desc">Duis in lorem placerat, iaculis nisi vitae, ultrices tortor. Vestibulum molestie ipsum nulla. Maecenas nec hendrerit eros, sit amet maximus leo.</p>
+                                <h4 class="title">Morning Rush</h4>
+                                <p class="desc">No sleep for the wicked! Arrive into Copenhagen between 06:00 & 08:00 Z.</p>
                             </div>
                         </div>
                     </div>
@@ -147,10 +162,10 @@
                     <!-- begin col-4 -->
                     <div class="col-md-4 col-sm-4">
                         <div class="service">
-                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-paint-brush"></i></div>
+                            
                             <div class="info">
-                                <h4 class="title">Competition Title</h4>
-                                <p class="desc">Etiam nulla turpis, gravida et orci ac, viverra commodo ipsum. Donec nec mauris faucibus, congue nisi sit amet, lobortis arcu.</p>
+                                <h4 class="title">Domestic Madness</h4>
+                                <p class="desc">Short on time? Complete a domestic two sector flight, originating in Copenhagen to any commercial airfield in Denmark & return to participate.</p>
                             </div>
                         </div>
                     </div>
@@ -158,10 +173,10 @@
                     <!-- begin col-4 -->
                     <div class="col-md-4 col-sm-4">
                         <div class="service">
-                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-file"></i></div>
+                            
                             <div class="info">
-                                <h4 class="title">Competition Title</h4>
-                                <p class="desc">Ut vel laoreet tortor. Donec venenatis ex velit, eget bibendum purus accumsan cursus. Curabitur pulvinar iaculis diam.</p>
+                                <h4 class="title">Afternoon Turnaround</h4>
+                                <p class="desc">Fly to Copenhagen & work in close co-operation with your ground crew to get your aircraft ready for departure - you've only got one hour!</p>
                             </div>
                         </div>
                     </div>
@@ -173,10 +188,10 @@
                     <!-- begin col-4 -->
                     <div class="col-md-4 col-sm-4">
                         <div class="service">
-                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-code"></i></div>
+                            
                             <div class="info">
-                                <h4 class="title">Competition Title</h4>
-                                <p class="desc">Aenean et elementum dui. Aenean massa enim, suscipit ut molestie quis, pretium sed orci. Ut faucibus egestas mattis.</p>
+                                <h4 class="title">6 Sector Challenge</h4>
+                                <p class="desc">Got the whole day set aside? Complete at least 6 sectors during the day. Every sector has to either arrive or depart at Copenhagen.</p>
                             </div>
                         </div>
                     </div>
@@ -184,10 +199,10 @@
                     <!-- begin col-4 -->
                     <div class="col-md-4 col-sm-4">
                         <div class="service">
-                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-shopping-cart"></i></div>
+                            
                             <div class="info">
-                                <h4 class="title">Competition Title</h4>
-                                <p class="desc">Quisque gravida metus in sollicitudin feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                <h4 class="title">Back Before Curfew</h4>
+                                <p class="desc">A long day of flying is slowly coming to an end, and it's time to head home once more. Touchdown in Copenhagen between 20:00 & 22:00 Z.</p>
                             </div>
                         </div>
                     </div>
@@ -195,9 +210,9 @@
                     <!-- begin col-4 -->
                     <div class="col-md-4 col-sm-4">
                         <div class="service">
-                            <div class="icon bg-theme" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-heart"></i></div>
+                            
                             <div class="info">
-                                <h4 class="title">Competition Title</h4>
+                                <h4 class="title">Virtual Airline Showdown</h4>
                                 <p class="desc">Integer consectetur, massa id mattis tincidunt, sapien erat malesuada turpis, nec vehicula lacus felis nec libero. Fusce non lorem nisl.</p>
                             </div>
                         </div>
@@ -214,7 +229,7 @@
         <div class="content bg-black-darker has-bg" data-scrollview="true">
             <!-- begin content-bg -->
             <div class="content-bg">
-                <img src="../assets/img/bg/bg-quote.jpg" alt="Quote" />
+                <img src="../assets/img/bg/bg-apron.jpg" alt="Quote" />
             </div>
             <!-- end content-bg -->
             <!-- begin container -->
@@ -223,8 +238,8 @@
                 <div class="row">
                     <!-- begin col-12 -->
                     <div class="col-md-12 quote">
-                        <i class="fa fa-quote-left"></i> Hey, here's a really clever thing, that we really should figure out. What should we put here? <i class="fa fa-quote-right"></i>
-                        <small>By some intelligent guy, probably.</small>
+                        <i class="fa fa-quote-left"></i> It was a great event.<br><br>I departed from CPH with my Cessna Citation X towards BIEG. And it was great service you delivered. Although the airport was busy, everything was fully under control.<br><br>You did an extraordinary job! <i class="fa fa-quote-right"></i>
+                        <a href="http://forum.vatsim-scandinavia.org/topic/283-feedback-from-pilots-feedbackvatsim-scandinaviaorg/?do=findComment&comment=13296" target="_blank"><small>- Reinhard Brantner (879395), pilot during Copenhagen Live 2017</small></a>
                     </div>
                     <!-- end col-12 -->
                 </div>
@@ -255,60 +270,4 @@
         
         
        
-        
-        <!-- begin #contact -->
-        <div id="contact" class="content bg-silver-lighter" data-scrollview="true">
-            <!-- begin container -->
-            <div class="container">
-                <h2 class="content-title">Contact Us</h2>
-                <p class="content-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur eros dolor,<br />
-                    sed bibendum turpis luctus eget
-                </p>
-                <!-- begin row -->
-                <div class="row">
-                    <!-- begin col-6 -->
-                    <div class="col-md-6" data-animation="true" data-animation-type="fadeInLeft">
-                        <h3>Do we really need this?</h3>
-                        <p>
-                            Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus.
-                        </p>
-                    </div>
-                    <!-- end col-6 -->
-                    <!-- begin col-6 -->
-                    <div class="col-md-6 form-col" data-animation="true" data-animation-type="fadeInRight">
-                        <form class="form-horizontal">
-                            <div class="form-group">
-                                <label class="control-label col-md-3">Name <span class="text-theme">*</span></label>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control" />
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-md-3">Email <span class="text-theme">*</span></label>
-                                <div class="col-md-9">
-                                    <input type="text" class="form-control" />
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-md-3">Message <span class="text-theme">*</span></label>
-                                <div class="col-md-9">
-                                    <textarea class="form-control" rows="10"></textarea>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-md-3"></label>
-                                <div class="col-md-9 text-left">
-                                    <button type="submit" class="btn btn-theme btn-block">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- end col-6 -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </div>
-        <!-- end #contact -->
     @endsection

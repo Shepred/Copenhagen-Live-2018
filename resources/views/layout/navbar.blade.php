@@ -23,7 +23,6 @@
                         <li><a href="#about" data-click="scroll-to-target">ABOUT</a></li>
                         <li><a href="#competitions" data-click="scroll-to-target">COMPETITIONS</a></li>
                         <li><a href="#briefing" data-click="scroll-to-target">BRIEFING</a></li>
-                        <li><a href="#contact" data-click="scroll-to-target">CONTACT</a></li>
                     </ul>
                 </div>
                 <!-- end navbar-collapse -->
