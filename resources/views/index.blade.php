@@ -266,13 +266,13 @@
                     <div class="col-md-4">
                         <h4 class="title">Copenhagen, Kastrup - EKCH</h4>
                         <p>
-                            We hope that you'll want to be best prepared, when you visit us at Copenhagen. We've got a full, comprehensive briefing prepared for you! You can find it right <a href="http://vatsim-scandinavia.org/wp-content/uploads/2013/12/Briefing-Copenhagen-Kastrup-V2.pdf">here</a>.<br>It contains some information about routes in and out of Copenhagen as well, so if you're looking for inspiration, this is your guide!
+                            We hope that you'll want to be best prepared, when you visit us at Copenhagen. We've got a full, comprehensive briefing prepared for you! You can find it right <a href="http://vatsim-scandinavia.org/wp-content/uploads/2013/12/Briefing-Copenhagen-Kastrup-V2.pdf" target="_blank">here</a>.<br>It contains some information about routes in and out of Copenhagen as well, so if you're looking for inspiration, this is your guide!
                         </p>
                     </div>
                     <div class="col-md-4">
                         <h4 class="title">Regional airports</h4>
                         <p>
-                            If you want information about our local airports, you can find so for Billund, Aalborg and Aarhus right <a href="http://vatsim-scandinavia.org/pilots/airports/denmark/">here</a>.
+                            If you want information about our local airports, you can find so for Billund, Aalborg and Aarhus right <a href="http://vatsim-scandinavia.org/pilots/airports/denmark/" target="_blank">here</a>.
                         </p>
                     </div>
                     <div class="col-md-2">&nbsp;</div>
