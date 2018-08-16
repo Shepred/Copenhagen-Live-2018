@@ -5,7 +5,7 @@
                     Copenhagen Live {{ date('Y') }}
                 </div>
                 <img class="vatsca-logo" src="{{ asset('assets/img/logo/vatsca.png') }}"/>
-                <p>Copyright &copy;  <a target="_blank" href="https://twitter.com/JakobLMarker">Jakob Lindved Marker</a> {{ date("Y") }}.<br />
+                <p>Copyright &copy; <a target="_blank" href="https://www.gustavkauman.com/">Gustav Utke Kauman</a> & <a target="_blank" href="https://twitter.com/JakobLMarker">Jakob Lindved Marker</a> {{ date("Y") }}.<br />
                 All images used with permission from <a href="https://www.flickr.com/photos/99499838@N06/" target="_blank">Mikkel Johnsen</a>.</p>
             </div>
         </div>
@@ -30,4 +30,14 @@
 	    $(document).ready(function() {
 	        App.init();
 	    });
+        $('#bll').on('shown.bs.modal', function () {
+            $('#bll').focus()
+        })
+        $('#aal').on('shown.bs.modal', function () {
+            $('#aal').focus()
+        })
+        $('#aar').on('shown.bs.modal', function () {
+            $('#aar').focus()
+        })
 	</script>
+
