@@ -47,7 +47,7 @@
                     <!-- end col-4 -->
                     <!-- begin col-4 -->
                     <div class="col-md-6 col-sm-12">
-                       	<img class="img-responsive img-rounded" src="{{ asset('assets/img/bg/cphlive.png') }}">
+                       	<img class="img-responsive img-rounded" src="{{ asset('assets/img/bg/cphlive.jpg') }}">
                     </div>
                     <!-- end col-4 -->
                 </div>
