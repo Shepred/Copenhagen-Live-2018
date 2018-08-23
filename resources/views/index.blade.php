@@ -126,16 +126,16 @@
                 </p>
                     <div class="row content-header">
                     	<div class="col-md-3 col-sm-3">
-                    		<a href="https://www.aerosoft.com/en/" target="_blank"><img src="{{ asset('/assets/img/sponsors/aerosoft.png') }}" alt="Aerosoft" class="img-responsive"/></a>
+                    		<a href="https://www.facebook.com/Aerosoft/" target="_blank"><img src="{{ asset('/assets/img/sponsors/aerosoft.png') }}" alt="Aerosoft" class="img-responsive"/></a>
                     	</div>
                     	<div class="col-md-3 col-sm-3">
-                    		<a href="https://www.fs2crew.com/" target="_blank"><img src="{{ asset('/assets/img/sponsors/fs2crew.png') }}" alt="FS2Crew" class="img-responsive"/></a>
+                    		<a href="https://www.facebook.com/fs2crew/" target="_blank"><img src="{{ asset('/assets/img/sponsors/fs2crew.png') }}" alt="FS2Crew" class="img-responsive"/></a>
                     	</div>
                     	<div class="col-md-3 col-sm-3">
-                    		<a href="https://orbxdirect.com/" target="_blank"><img src="{{ asset('/assets/img/sponsors/orbx.png') }}" alt="Orbx" class="img-responsive"/></a>
+                    		<a href="https://www.facebook.com/orbxsystems/" target="_blank"><img src="{{ asset('/assets/img/sponsors/orbx.png') }}" alt="Orbx" class="img-responsive"/></a>
                     	</div>
                     	<div class="col-md-3 col-sm-3">
-                    		<a href="http://www.vidandesign.com/" target="_blank"><img src="{{ asset('/assets/img/sponsors/vidandesign.png') }}" alt="Vidan Design" class="img-responsive" style="padding-top:10%;"/></a>
+                    		<a href="https://www.facebook.com/vidandesign/" target="_blank"><img src="{{ asset('/assets/img/sponsors/vidandesign.png') }}" alt="Vidan Design" class="img-responsive" style="padding-top:10%;"/></a>
                     	</div>
                     </div>
                 <!-- begin row -->
@@ -246,19 +246,22 @@
                 <div class="row">
                     <div class="col-md-2">&nbsp;</div>
                     <div class="col-md-4">
-                        <h4 class="title">Copenhagen, Kastrup - EKCH</h4>
+                        <h4 class="title">Copenhagen, Kastrup</h4>
                         <p>
-                            We hope that you'll want to be best prepared, when you visit us at Copenhagen. We've got a full, comprehensive briefing prepared for you! You can find it right <a href="http://vatsim-scandinavia.org/wp-content/uploads/2013/12/Briefing-Copenhagen-Kastrup-V2.pdf" target="_blank">here</a>.<br>It contains some information about routes in and out of Copenhagen as well, so if you're looking for inspiration, this is your guy as well!
+                            We hope that you'll want to be best prepared, when you visit us at Copenhagen. We've got a full, comprehensive briefing prepared that should cater to every type of flight possible. Read more by clicking the link below.
                         </p>
+                        <h3>
+                            <a href="http://vatsim-scandinavia.org/wp-content/uploads/2013/12/Briefing-Copenhagen-Kastrup-V2.pdf" target="_blank">Copenhagen</a>
+                        </h3>
                     </div>
                     <div class="col-md-4">
-                        <h4 class="title">Regional airports</h4>
+                        <h4 class="title">Billund, Aarhus & Aalborg</h4>
                         <p>
                             While Copenhagen is the main focus of our event, we'd love to see you fly in and out of the country's regional airports. We've included short briefings with everything you need to know below.
                         </p>
-                        <p>
+                        <h3>
                             <a href="#bll" data-toggle="modal" data-target="#bll">Billund</a> | <a href="#aal" data-toggle="modal" data-target="#aar">Aarhus</a> | <a href="#aal" data-toggle="modal" data-target="#aal">Aalborg</a>
-                        </p>
+                        </h3>
                         <div id="bll" class="modal fade" tabindex="-1" role="dialog">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
