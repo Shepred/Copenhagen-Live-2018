@@ -287,7 +287,7 @@
         <!-- end #about -->
 
         <!-- begin #quote -->
-        <div class="content bg-black-darker has-bg" data-scrollview="true">
+        <div id="virtualairlines" class="content bg-black-darker has-bg" data-scrollview="true">
             <!-- begin content-bg -->
             <div class="content-bg">
                 <img src="../assets/img/bg/bg-apron.jpg" alt="Quote" />
@@ -296,22 +296,37 @@
             <!-- begin container -->
             <div class="container" data-animation="true" data-animation-type="fadeInLeft">
                 <!-- begin row -->
-                <div class="row">
-                    <!-- begin col-12 -->
-                    <div class="col-md-12 quote">
-                        <i class="fa fa-quote-left"></i> It was a great event.<br><br>I departed from CPH with my Cessna Citation X towards BIEG. And it was great service you delivered. Although the airport was busy, everything was fully under control.<br><br>You did an extraordinary job! <i class="fa fa-quote-right"></i>
-                        <a href="http://forum.vatsim-scandinavia.org/topic/283-feedback-from-pilots-feedbackvatsim-scandinaviaorg/?do=findComment&comment=13296" target="_blank"><small>- Reinhard Brantner (879395), pilot during Copenhagen Live 2017</small></a>
+            <div class="container">
+                <h2 class="content-title">Virtual Airlines</h2>
+                <p class="content-desc">
+                    As a part of this eventful day, collaborations with various virtual airlines are in place. Are you a member of any them?
+                    <br>
+                    <br>
+                    Check out these airlines for a fly-in notice or a group flight one the day. Some of them offer extra points for flying in, others have group flights during the day. 
+                </p>
+                    <div class="row content-header">
+                        <div class="col-md-3 col-sm-3">
+                            <a href="https://www.virtualnorwegian.net/" target="_blank"><img src="{{ asset('/assets/img/logo/vnas.png') }}" alt="Virtual Norwegian" class="center-block img-responsive"/></a>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <a href="https://www.bavirtual.co.uk/" target="_blank"><img src="{{ asset('/assets/img/logo/bav.png') }}" alt="BAVirtual" class="center-block img-responsive"/></a>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <a href="https://flyuk.aero/" target="_blank"><img src="{{ asset('/assets/img/logo/ukv.png') }}" alt="Fly UK" class="center-block img-responsive"/></a>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <a href="http://vryr.eu/" target="_blank"><img src="{{ asset('/assets/img/logo/vryr.png') }}" alt="vRYR" class="center-block img-responsive"/></a>
+                        </div>
                     </div>
-                    <!-- end col-12 -->
-                </div>
-                <!-- end row -->
+                    <div class="row content-header">
+                        <div class="col-md-12 col-sm-12">
+                            <a href="http://www.vezy.eu/" target="_blank"><img src="{{ asset('/assets/img/logo/vezy.png') }}" alt="vEZY" class="center-block img-responsive"/></a>
+                        </div>
+                    </div>
             </div>
             <!-- end container -->
         </div>
-        <!-- end #quote -->
-
-
-
+    </div>
 
 
         <!-- begin #briefing -->
