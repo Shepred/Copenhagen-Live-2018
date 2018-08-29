@@ -32,12 +32,14 @@
 	    });
         $('#bll').on('shown.bs.modal', function () {
             $('#bll').focus()
-        })
+        });
         $('#aal').on('shown.bs.modal', function () {
             $('#aal').focus()
-        })
+        });
         $('#aar').on('shown.bs.modal', function () {
             $('#aar').focus()
-        })
+        });
 	</script>
-
+    <script>
+        $('#flash-overlay-modal').modal();
+    </script>

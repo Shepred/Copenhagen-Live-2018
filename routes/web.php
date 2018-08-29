@@ -12,5 +12,5 @@
 */
 
 Route::get('/', 'HomeController@index');
-Route::get('/competitions', 'HomeController@competitions');
-
+Route::get('/privacy', 'HomeController@privacy');
+Route::post('/competitions/signup', 'HomeController@signup');

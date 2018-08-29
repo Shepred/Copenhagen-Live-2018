@@ -22,6 +22,7 @@
                         <li class="active"><a href="#home" data-click="scroll-to-target">HOME</a></li>
                         <li><a href="#about" data-click="scroll-to-target">ABOUT</a></li>
                         <li><a href="#competitions" data-click="scroll-to-target">COMPETITIONS</a></li>
+                        <li><a href="#virtualairlines" data-click="scroll-to-target">VIRTUAL AIRLINES</a></li>
                         <li><a href="#briefing" data-click="scroll-to-target">BRIEFING</a></li>
                     </ul>
                 </div>

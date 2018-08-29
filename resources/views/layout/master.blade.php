@@ -9,6 +9,7 @@
 	</head>
 
 	<body data-spy="scroll" data-target="#header-navbar" data-offset="51">
+		@include('flash::message')
 		@include('layout.navbar')
 		@yield('content')
 		@include('layout.footer')

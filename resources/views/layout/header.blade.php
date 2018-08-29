@@ -33,6 +33,9 @@
       				"background": "#f1d600"
     			}
   			},
+  			"content": {
+    			"href": "{{ url('/privacy') }}"
+  			},
   			"theme": "edgeless"
 		})});
 	</script>

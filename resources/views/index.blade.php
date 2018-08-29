@@ -122,20 +122,99 @@
                 <p class="content-desc">
                     Just like last year, we've teamed up with numerous well known flight simulator developers, to give away some wonderful prizes.
                     <br>
-                    Below you'll find a brief overview. We are not quite ready to accept signups for these competitions just yet, but will be sure to include a link here once we are.
+                    Below you'll find a brief overview. Please use the form to sign up for the competitions you wish to participate in.
                 </p>
+                @if(count($errors))
+                <div class="col-xs-12">
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach($errors->all() as $error)
+                                <li>
+                                    {{ $error }}
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                </div>
+                @endif
+                <form class="form-horizontal" method="POST" action="/competitions/signup">
+                    {{ csrf_field() }}
+                    <div class="row">
+                        <div class="col-xs-2">
+                            &nbsp;
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="form-group" style="margin-right:5px;">
+                                <label class="sr-only" for="id">VATSIM ID</label>
+                                <input type="text" class="form-control" id="id" name="id" placeholder="VATSIM ID" required>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="form-group" style="margin-left:5px;">
+                                <label class="sr-only" for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-1">
+                            &nbsp;
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="checkbox">
+                                <label>
+                                   <input type="checkbox" id="1" name="1"> Morning Rush
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="checkbox">
+                                <label>
+                                   <input type="checkbox" id="2" name="2"> Domestic Madness
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="checkbox">
+                                <label>
+                                   <input type="checkbox" id="3" name="3"> Afternoon Turnaround
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="checkbox">
+                                <label>
+                                   <input type="checkbox" id="4" name="4"> 6 Sector Challenge
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="checkbox">
+                                <label>
+                                   <input type="checkbox" id="5" name="5"> Back Before Curfew
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center content-header content-footer">
+                        <div class="col-xs-12">
+                            <p>By clicking "Submit" you are agreeing to our <a href="{{ url('/privacy') }}" target="_blank">privacy policy</a>.</p>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
                     <div class="row content-header">
                     	<div class="col-md-3 col-sm-3">
-                    		<a href="https://www.aerosoft.com/en/" target="_blank"><img src="{{ asset('/assets/img/sponsors/aerosoft.png') }}" alt="Aerosoft" class="img-responsive"/></a>
+                    		<a href="https://www.facebook.com/Aerosoft/" target="_blank"><img src="{{ asset('/assets/img/sponsors/aerosoft.png') }}" alt="Aerosoft" class="img-responsive"/></a>
                     	</div>
                     	<div class="col-md-3 col-sm-3">
-                    		<a href="https://www.fs2crew.com/" target="_blank"><img src="{{ asset('/assets/img/sponsors/fs2crew.png') }}" alt="FS2Crew" class="img-responsive"/></a>
+                    		<a href="https://www.facebook.com/fs2crew/" target="_blank"><img src="{{ asset('/assets/img/sponsors/fs2crew.png') }}" alt="FS2Crew" class="img-responsive"/></a>
                     	</div>
                     	<div class="col-md-3 col-sm-3">
-                    		<a href="https://orbxdirect.com/" target="_blank"><img src="{{ asset('/assets/img/sponsors/orbx.png') }}" alt="Orbx" class="img-responsive"/></a>
+                    		<a href="https://www.facebook.com/orbxsystems/" target="_blank"><img src="{{ asset('/assets/img/sponsors/orbx.png') }}" alt="Orbx" class="img-responsive"/></a>
                     	</div>
                     	<div class="col-md-3 col-sm-3">
-                    		<a href="http://www.vidandesign.com/" target="_blank"><img src="{{ asset('/assets/img/sponsors/vidandesign.png') }}" alt="Vidan Design" class="img-responsive" style="padding-top:10%;"/></a>
+                    		<a href="https://www.facebook.com/vidandesign/" target="_blank"><img src="{{ asset('/assets/img/sponsors/vidandesign.png') }}" alt="Vidan Design" class="img-responsive" style="padding-top:10%;"/></a>
                     	</div>
                     </div>
                 <!-- begin row -->
@@ -208,7 +287,7 @@
         <!-- end #about -->
 
         <!-- begin #quote -->
-        <div class="content bg-black-darker has-bg" data-scrollview="true">
+        <div id="virtualairlines" class="content bg-black-darker has-bg" data-scrollview="true">
             <!-- begin content-bg -->
             <div class="content-bg">
                 <img src="../assets/img/bg/bg-apron.jpg" alt="Quote" />
@@ -217,22 +296,37 @@
             <!-- begin container -->
             <div class="container" data-animation="true" data-animation-type="fadeInLeft">
                 <!-- begin row -->
-                <div class="row">
-                    <!-- begin col-12 -->
-                    <div class="col-md-12 quote">
-                        <i class="fa fa-quote-left"></i> It was a great event.<br><br>I departed from CPH with my Cessna Citation X towards BIEG. And it was great service you delivered. Although the airport was busy, everything was fully under control.<br><br>You did an extraordinary job! <i class="fa fa-quote-right"></i>
-                        <a href="http://forum.vatsim-scandinavia.org/topic/283-feedback-from-pilots-feedbackvatsim-scandinaviaorg/?do=findComment&comment=13296" target="_blank"><small>- Reinhard Brantner (879395), pilot during Copenhagen Live 2017</small></a>
+            <div class="container">
+                <h2 class="content-title">Virtual Airlines</h2>
+                <p class="content-desc">
+                    As a part of this eventful day, collaborations with various virtual airlines are in place. Are you a member of any them?
+                    <br>
+                    <br>
+                    Check out these airlines for a fly-in notice or a group flight one the day. Some of them offer extra points for flying in, others have group flights during the day. 
+                </p>
+                    <div class="row content-header">
+                        <div class="col-md-3 col-sm-3">
+                            <a href="https://www.virtualnorwegian.net/" target="_blank"><img src="{{ asset('/assets/img/logo/vnas.png') }}" alt="Virtual Norwegian" class="center-block img-responsive"/></a>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <a href="https://www.bavirtual.co.uk/" target="_blank"><img src="{{ asset('/assets/img/logo/bav.png') }}" alt="BAVirtual" class="center-block img-responsive"/></a>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <a href="https://flyuk.aero/" target="_blank"><img src="{{ asset('/assets/img/logo/ukv.png') }}" alt="Fly UK" class="center-block img-responsive"/></a>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <a href="http://vryr.eu/" target="_blank"><img src="{{ asset('/assets/img/logo/vryr.png') }}" alt="vRYR" class="center-block img-responsive"/></a>
+                        </div>
                     </div>
-                    <!-- end col-12 -->
-                </div>
-                <!-- end row -->
+                    <div class="row content-header">
+                        <div class="col-md-12 col-sm-12">
+                            <a href="http://www.vezy.eu/" target="_blank"><img src="{{ asset('/assets/img/logo/vezy.png') }}" alt="vEZY" class="center-block img-responsive"/></a>
+                        </div>
+                    </div>
             </div>
             <!-- end container -->
         </div>
-        <!-- end #quote -->
-
-
-
+    </div>
 
 
         <!-- begin #briefing -->
@@ -246,19 +340,22 @@
                 <div class="row">
                     <div class="col-md-2">&nbsp;</div>
                     <div class="col-md-4">
-                        <h4 class="title">Copenhagen, Kastrup - EKCH</h4>
+                        <h4 class="title">Copenhagen, Kastrup</h4>
                         <p>
-                            We hope that you'll want to be best prepared, when you visit us at Copenhagen. We've got a full, comprehensive briefing prepared for you! You can find it right <a href="http://vatsim-scandinavia.org/wp-content/uploads/2013/12/Briefing-Copenhagen-Kastrup-V2.pdf" target="_blank">here</a>.<br>It contains some information about routes in and out of Copenhagen as well, so if you're looking for inspiration, this is your guy as well!
+                            We hope that you'll want to be best prepared, when you visit us at Copenhagen. We've got a full, comprehensive briefing prepared that should cater to every type of flight possible. Read more by clicking the link below.
                         </p>
+                        <h3>
+                            <a href="http://vatsim-scandinavia.org/wp-content/uploads/2013/12/Briefing-Copenhagen-Kastrup-V2.pdf" target="_blank">Copenhagen</a>
+                        </h3>
                     </div>
                     <div class="col-md-4">
-                        <h4 class="title">Regional airports</h4>
+                        <h4 class="title">Billund, Aarhus & Aalborg</h4>
                         <p>
                             While Copenhagen is the main focus of our event, we'd love to see you fly in and out of the country's regional airports. We've included short briefings with everything you need to know below.
                         </p>
-                        <p>
+                        <h3>
                             <a href="#bll" data-toggle="modal" data-target="#bll">Billund</a> | <a href="#aal" data-toggle="modal" data-target="#aar">Aarhus</a> | <a href="#aal" data-toggle="modal" data-target="#aal">Aalborg</a>
-                        </p>
+                        </h3>
                         <div id="bll" class="modal fade" tabindex="-1" role="dialog">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
