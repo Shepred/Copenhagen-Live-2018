@@ -122,8 +122,87 @@
                 <p class="content-desc">
                     Just like last year, we've teamed up with numerous well known flight simulator developers, to give away some wonderful prizes.
                     <br>
-                    Below you'll find a brief overview. We are not quite ready to accept signups for these competitions just yet, but will be sure to include a link here once we are.
+                    Below you'll find a brief overview. Please use the form to sign up for the competitions you wish to participate in.
                 </p>
+                @if(count($errors))
+                <div class="col-xs-12">
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach($errors->all() as $error)
+                                <li>
+                                    {{ $error }}
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                </div>
+                @endif
+                <form class="form-horizontal" method="POST" action="/competitions/signup">
+                    {{ csrf_field() }}
+                    <div class="row">
+                        <div class="col-xs-2">
+                            &nbsp;
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="form-group" style="margin-right:5px;">
+                                <label class="sr-only" for="id">VATSIM ID</label>
+                                <input type="text" class="form-control" id="id" name="id" placeholder="VATSIM ID" required>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="form-group" style="margin-left:5px;">
+                                <label class="sr-only" for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-1">
+                            &nbsp;
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="checkbox">
+                                <label>
+                                   <input type="checkbox" id="1" name="1"> Morning Rush
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="checkbox">
+                                <label>
+                                   <input type="checkbox" id="2" name="2"> Domestic Madness
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="checkbox">
+                                <label>
+                                   <input type="checkbox" id="3" name="3"> Afternoon Turnaround
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="checkbox">
+                                <label>
+                                   <input type="checkbox" id="4" name="4"> 6 Sector Challenge
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="checkbox">
+                                <label>
+                                   <input type="checkbox" id="5" name="5"> Back Before Curfew
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center content-header content-footer">
+                        <div class="col-xs-12">
+                            <p>By clicking "Submit" you are agreeing to our <a href="{{ url('/privacy') }}" target="_blank">privacy policy</a>.</p>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
                     <div class="row content-header">
                     	<div class="col-md-3 col-sm-3">
                     		<a href="https://www.facebook.com/Aerosoft/" target="_blank"><img src="{{ asset('/assets/img/sponsors/aerosoft.png') }}" alt="Aerosoft" class="img-responsive"/></a>

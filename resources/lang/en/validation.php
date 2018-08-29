@@ -125,8 +125,27 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        '1' => [
+            'required_without_all' => 'You must sign up for at least one competition.',
+        ],
+        '2' => [
+            'required_without_all' => 'You must sign up for at least one competition.',
+        ],
+        '3' => [
+            'required_without_all' => 'You must sign up for at least one competition.',
+        ],
+        '4' => [
+            'required_without_all' => 'You must sign up for at least one competition.',
+        ],
+        '5' => [
+            'required_without_all' => 'You must sign up for at least one competition.',
+        ],
+        'id' => [
+            'digits_between' => 'Your VATSIM ID is invalid.',
+            'unique'         => 'That VATSIM ID has already signed up.',
+        ],
+        'email' => [
+            'unique' => 'That email address has already been used.',
         ],
     ],
 
