@@ -25,7 +25,19 @@
 	<script src="{{ asset('assets/plugins/scrollMonitor/scrollMonitor.js') }}"></script>
 	<script src="{{ asset('assets/js/apps.min.js') }}"></script>
 	<!-- ================== END BASE JS ================== -->
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
 	
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "vatscadenmark",
+        layout: "video",
+      });
+    </script>
+
 	<script>    
 	    $(document).ready(function() {
 	        App.init();
