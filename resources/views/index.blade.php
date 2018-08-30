@@ -39,7 +39,7 @@
                                 While the event takes place in Copenhagen, Kastrup in the virtual world, the team of controllers once more venture to the west, more specifically Vejle in Jutland. They're gathered for the entire weekend and as such some sporadic coverage during Friday or Sunday isn't unlikely.
                             </p>
                             <p>
-                                Last years event was a busy one. With 530 movements over 16 hours, we are fairly confident we broke any and all records for events in Scandinavia. This year, we're counting on you to go even further. With numerous competitions during the day, prizes sponsored by generous the generous developers & publishers Aerosoft, FS2Crew, Orbx & Vidan Design and all day coverage of the entirety of Denmark, we hope that you will join us in breaking 2017's record.
+                                Last years event was a busy one. With 530 movements over 16 hours, we are fairly confident we broke any and all records for events in Scandinavia. This year, we're counting on you to go even further. With numerous competitions during the day, prizes sponsored by the generous developers & publishers; Aerosoft, FS2Crew, Orbx & Vidan Design and all day coverage of the entirety of Denmark, we hope that you will join us in breaking 2017's record.
                             </p>
                         </div>
                         <!-- end about -->
@@ -345,7 +345,7 @@
                             We hope that you'll want to be best prepared, when you visit us at Copenhagen. We've got a full, comprehensive briefing prepared that should cater to every type of flight possible. Read more by clicking the link below.
                         </p>
                         <h3>
-                            <a href="http://vatsim-scandinavia.org/wp-content/uploads/2013/12/Briefing-Copenhagen-Kastrup-V2.pdf" target="_blank">Copenhagen</a>
+                            <a href="http://vatsim-scandinavia.org/wp-content/uploads/2013/12/Briefing-Copenhagen-Kastrup-V2.pdf" target="_blank">Copenhagen, Kastrup</a>
                         </h3>
                     </div>
                     <div class="col-md-4">
@@ -608,7 +608,69 @@
             <!-- end container -->
         </div>
         <!-- end #briefing -->
-
-
+<div id="charts" class="content bg-black-darker has-bg" data-scrollview="true">
+            <!-- begin content-bg -->
+            <div class="content-bg">
+                <img src="../assets/img/bg/wing.jpg" alt="Quote" />
+            </div>
+            <!-- end content-bg -->
+            <!-- begin container -->
+            <div class="container" data-animation="true" data-animation-type="fadeInLeft">
+                <!-- begin row -->
+            <div class="container">
+                <h2 class="content-title">Charts</h2>
+                <p class="content-desc">
+                    With kind permission from <a href="http://www.naviair.dk/" target="_blank">NAVIAIR</a>, we are able to present you with charts for most airports in Denmark.
+                    <br>
+                    <br>
+                    Have a look below - being well prepared has never been easier.
+                </p>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 text-center">
+                            <h3>
+                                <a href="{{ asset('charts/ekch.pdf') }}" target="_blank" alt="Charts for Copenhagen, Kastrup Airport">Copenhagen, Kastrup</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 text-center">
+                            <h4>
+                                <a href="{{ asset('charts/ekbi.pdf') }}" target="_blank" alt="Charts for Billund Airport">Billund</a> | <a href="{{ asset('charts/ekah.pdf') }}" target="_blank" alt="Charts for Aarhus Airport">Aarhus</a> | <a href="{{ asset('charts/ekyt.pdf') }}" target="_blank" alt="Charts for Aalborg Airport">Aalborg</a>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 text-center">
+                            <h5>
+                                <a href="{{ asset('charts/ekka.pdf') }}" target="_blank" alt="Charts for Karup Airport">Karup</a> | <a href="{{ asset('charts/ekrn.pdf') }}" target="_blank" alt="Charts for Rønne Airport">Rønne</a> | <a href="{{ asset('charts/eksb.pdf') }}" target="_blank" alt="Charts for Sønderborg Airport">Sønderborg</a>
+                            </h5>
+                        </div>
+                    </div>
+            </div>
+            <!-- end container -->
+        </div>
+    </div>
+        <div id="livestream" class="content" data-scrollview="true">
+            <!-- begin container -->
+            <div class="container" data-animation="true" data-animation-type="fadeInDown">
+                <h2 class="content-title">Twitch Feed</h2>
+                <p class="content-desc">
+                    As part of our continuous strive to improve the "Copenhagen Live" concept, we are planning to have a Twitch Feed up & running showcasing the controller's scopes, workflows and much, much more.
+                    <br>
+                    <br>
+                    If you want to see the inner workings of "the other side of the scope", feel free to tune in.
+                </p>
+                <!-- begin row -->
+                <div class="row">
+                    <!-- begin col-4 -->
+                    <div class="col-md-12 col-sm-12 text-center">
+                        <div id="twitch-embed"></div>
+                    </div>
+                        
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
 
     @endsection

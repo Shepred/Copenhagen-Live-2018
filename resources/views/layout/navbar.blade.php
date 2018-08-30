@@ -24,6 +24,8 @@
                         <li><a href="#competitions" data-click="scroll-to-target">COMPETITIONS</a></li>
                         <li><a href="#virtualairlines" data-click="scroll-to-target">VIRTUAL AIRLINES</a></li>
                         <li><a href="#briefing" data-click="scroll-to-target">BRIEFING</a></li>
+                        <li><a href="#charts" data-click="scroll-to-target">CHARTS</a></li>
+                        <li><a href="#livestream" data-click="scroll-to-target">TWITCH FEED</a></li>
                     </ul>
                 </div>
                 <!-- end navbar-collapse -->
