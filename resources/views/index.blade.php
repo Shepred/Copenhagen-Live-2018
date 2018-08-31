@@ -225,7 +225,13 @@
 
                             <div class="info">
                                 <h4 class="title">Morning Rush</h4>
-                                <p class="desc">No sleep for the wicked! Arrive into Copenhagen between 06:00 & 08:00 Z.</p>
+                                <p class="desc">No sleep for the wicked! Arrive or depart Copenhagen between 06:00 & 08:00 Z or 08:00 & 10:00 Z.
+                                <br><br>
+                                <hr>
+                                Fly between 06:00 & 08:00 Z for a chance to win a <b>€30 Aerosoft giftcard</b>.
+                                <br>
+                                Fly between 08:00 & 10:00 Z for a chance to win a <b>FS2Crew product of your own choosing</b>.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -236,7 +242,10 @@
 
                             <div class="info">
                                 <h4 class="title">Domestic Madness</h4>
-                                <p class="desc">Short on time? Complete a domestic two sector flight, originating in Copenhagen to any commercial airfield in Denmark & return to participate.</p>
+                                <p class="desc">Short on time? Complete a domestic two sector flight, originating in Copenhagen to any commercial airfield in Denmark & return to participate.
+                                <hr>
+                                Fly domestic for a chance to win the new <b>Vidan Design Aalborg X scenery</b>. You will receive a copy when the scenery releases.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -247,7 +256,10 @@
 
                             <div class="info">
                                 <h4 class="title">Afternoon Turnaround</h4>
-                                <p class="desc">Fly to Copenhagen & work in close co-operation with your ground crew to get your aircraft ready for departure - you've only got one hour!</p>
+                                <p class="desc">Fly to Copenhagen & work in close co-operation with your ground crew to get your aircraft ready for departure - you've only got one hour between 10:00 & 14:00 Z.
+                                <hr>
+                                Complete a turnaround lasting of an hour or less between 10:00 & 14:00 Z for a chance to win a <b>€30 Aerosoft giftcard</b>.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -263,7 +275,10 @@
 
                             <div class="info">
                                 <h4 class="title">6 Sector Challenge</h4>
-                                <p class="desc">Got the whole day set aside? Complete at least 6 sectors during the day. Every sector has to either arrive or depart at Copenhagen.</p>
+                                <p class="desc">Got the whole day set aside? Complete at least 6 sectors during the event. Every sector has to either arrive or depart at Copenhagen.
+                                <hr>
+                                Complete 6 sectors for a chance to win a <b>ORBX airport of your choosing</b>.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -274,7 +289,10 @@
 
                             <div class="info">
                                 <h4 class="title">Back Before Curfew</h4>
-                                <p class="desc">A long day of flying is slowly coming to an end, and it's time to head home once more. Touchdown in Copenhagen between 20:00 & 22:00 Z.</p>
+                                <p class="desc">A long day of flying is slowly coming to an end, and it's time to head home once more. Touchdown in Copenhagen between 20:00 & 22:00 Z.
+                                <hr>
+                                Arrive into Copenhagen between 20:00 & 22:00 Z for a chance to win a <b>Vidan Design product of your choosing</b> (does not include Aalborg X).
+                                </p>
                             </div>
                         </div>
                     </div>
