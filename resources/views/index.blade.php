@@ -446,7 +446,7 @@
                                         <p>
                                             Call for ATC clearence with the initial call. All SIDs has a stop altitude of FL60.<br><br>
                                             Runway 27: All SIDs require an immidiate right turn after departure to avoid the
-                                            city of Billund. Intersection M may be used for departure.<br><br>
+                                            city of Billund. Intersection M may <b>NOT</b> be used for departure if you are flying a jet aircraft.<br><br>
                                             Runway 09: Intersection F, A, B and C may be used for departure.
                                             Expect NAPD 2 out of Billund.
                                         </p>
@@ -583,7 +583,7 @@
                                             Expect vectors, or direct points on final, by EKDK_CTR or
                                             EKYT_APP if online.<br><br>
                                             Both runway are equipped with ILS, RWY 26L includes
-                                            CATII.<br><br>
+                                            CATIII.<br><br>
                                             No STARs are available in Aalborg. EKDK_CTR may clear you to direct AAL, GL,
                                             BAKIT or GIPUG for an ILS to the active runway. Alternatively radar vectors will be
                                             provided.<br><br>
